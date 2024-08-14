@@ -1,7 +1,17 @@
-# Program ___
+# Program 8
 
 ## Program Description:  
-- Find the ____
+- Write a program that prompts the reader for two integers and then prints:
+  - The sum
+  - The difference
+  - The product
+  - The average
+  - The distance (absolute value of the difference)
+  - The maximum (the larger of the two)
+  - The minimum (the larger of the two)
+- You are not allowed to use any max or min function.
+  - Hint:  Use the abs function and compute:  |a - b| + a + b.
+- All variables should be int except average
 - Choose variable names which are meaningful for this problem, like Area, Width, etc.
 
 ## Program Data:
@@ -13,13 +23,29 @@
 | Badwagon | 161 | 11 |
 
 ## Statements Required: 
-- System.out
-- Variable Assignment
-- ...
+- Input
+- Output
+- Math Library
 
 ## Sample Output:
->Some
+>Enter number 1: 13
 >
->Out
+>Enter number 2: 20
 >
->Put
+>-------------------
+>
+>Original numbers are 13 and 20
+>
+>Sum =	33
+>
+>Difference =	-7
+>
+>Product =	260
+>
+>Average =	 16.5
+>
+>Absolute value =	7
+>
+>Maximum =	20
+>
+>Minimum =	13
